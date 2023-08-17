@@ -1,0 +1,4 @@
+# seems to work as of today 2023-08-10
+loguru
+python-docx
+docxtpl
