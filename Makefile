@@ -22,3 +22,6 @@ clean:
 
 	# remove the public notice folder 
 	$(RM) -r "DRT/2021-07-07 DRT/public notice"
+
+	# remove the mailed notice folder 
+	$(RM) -r "DRT/2021-07-07 DRT/mailed notice"
