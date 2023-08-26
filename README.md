@@ -1,12 +1,15 @@
 # Request Builder Py
 
-[Installation instructions](#Installation) are below.
+This was a project that was under development from 2020 to August 2021, when I, Micah Cochran, worked for City of Athens.
+
+[Screenshots](#Screenshots)
+[Installation instructions](#Installation)
 
 Software that generates agendas and notices from applicant requests.  This software is command line interface programmed in Python.
 
 The `DATES` command tells you when those dates for meetings and deadlines for a given month. (Holidays are not taken into account.)  This works at any point in time.
 
-`2023-08` is August 2023, for the Planning Commission Meeting that will take place in that month.  The software generates these date for any month.  For the command line dates are in ISO8661 format, so `YYYY-MM-DD` format:
+`2023-08` is August 2023, for the Planning Commission Meeting that will take place in that month.  The software generates these date for any month.  For the command line dates are in ISO 8601 format, so `YYYY-MM-DD` format:
 
 ```
 > python3 request_builder2.py 2023-08 DATES
